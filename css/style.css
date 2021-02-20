@@ -1,0 +1,59 @@
+/*font-family: 'Playfair Display', sans-serif
+
+font-family: 'Ubuntu', sans-serif;
+*/
+/*common start*/
+body{
+	font-family: 'Playfair Display', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: 400;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 20px 0;
+}
+.container{
+	margin:0 auto;
+	width: 90%;
+	/*border:1px solid red;*/
+	overflow: hidden;  
+}
+.logo{
+	margin-top: 12px;
+	float: left;
+	width: 13%;
+	/*border: 1px solid red;*/
+
+}
+.logo img{
+	width: 100%;
+}
+.manu{ 
+   float: right;
+   width: 60%;
+   /*border: 1px solid red;*/
+ }
+.manu ul{}
+.manu ul li{
+	list-style: none;
+	float: left;
+}
+.manu ul li a{
+	padding: 0 50px;
+	margin: 2px;
+	display: inline-block
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.manu ul li :last-child a{
+	margin-right:0;
+}
+.manu ul li a:hover{
+   color:black;
+}
+
+/*header end*/
